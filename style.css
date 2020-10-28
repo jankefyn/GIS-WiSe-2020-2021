@@ -19,6 +19,16 @@ html{
     
 }
 #drache{
-    position: static;
-    
+    position: static
+}
+.red{
+    color:red;
+}
+.blue{
+    color:blue;
+}
+li{
+    position: relative;
+    right: 15pt;
+    list-style: none;
 }
