@@ -4,7 +4,7 @@ nav{
     top:0px;
     right:0px;
     border-style: solid ;
-    background-color: rgb(179, 158, 199);
+    background-color: rgba(239, 240, 210, 0.63);
 }
 body{
     background-image: url(bg.png);
