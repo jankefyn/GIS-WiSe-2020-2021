@@ -1,10 +1,13 @@
 
-nav{
+nav {
     position:fixed; 
     top:0px;
     right:0px;
     border-style: solid ;
     background-color: rgba(239, 240, 210, 0.63);
+}
+a:hover{
+background-color: rgba(0, 0, 255, 0.507);
 }
 body{
     background-image: url(bg.png);
@@ -12,7 +15,7 @@ body{
 html{
     text-align: center;
     font-family: sans-serif;
-    border-style:solid;
+    border-style:solid ;
 }
 #bild{
     position:static;
@@ -31,4 +34,11 @@ li{
     position: relative;
     right: 15pt;
     list-style: none;
+}
+.header{
+    background-color: #701c1c6e;
+    padding: 20;
+    border-radius: 70cm;
+    border-style: groove;
+    text-align: center;
 }
