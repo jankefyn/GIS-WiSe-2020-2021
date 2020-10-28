@@ -1,9 +1,15 @@
+
 nav{
     position:fixed; 
     top:0px;
     right:0px;
-   
+    border-style: solid ;
+    background-color: rgb(179, 158, 199);
+}
+body{
+    background-image: url(bg.png);
 }
 html{
     font-family: sans-serif;
+    border-style:solid;
 }
