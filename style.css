@@ -1,5 +1,4 @@
-/*smartphone*/
-@media screen and (max-width:600){
+@media screen and (max-width:600px){
 nav {
     position:fixed; 
     top:0px;
@@ -44,7 +43,7 @@ li{
     list-style: none;
 }
 .header{
-    background-color: #701c1c6e;
+    background-color: #0000006e;
     padding: 20;
     border-radius: 70cm;
     border-style: groove;
@@ -71,160 +70,89 @@ a:visited {
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
 	color: lightsteelblue;
-}
-}
-/*ab hier  für tablet*/
-
-@media screen and ( max-width:1024){
-nav {
-    position:fixed; 
-    top:0px;
-    right:0px;
-    border-style: solid ;
-    background-color: rgba(239, 240, 210, 0.63);
-}
-a[href$="Portfolio.html"]:hover{
-background-color: rgba(0, 0, 255, 0.507);
-}
-a[href$="about.html"]:hover{
-    background-color: rgba(158, 156, 24, 0.507);
-}
-a[href$="Kontakt.html"]:hover{
-    background-color: rgba(17, 167, 104, 0.507);
-}
-body{
-    background-image: url(bg.png);
-}
-html{
-    max-width: 800;
-    text-align: center;
-    font-family: sans-serif;
-    border-style:solid ;
-}
-#bild{
-    position:static;
-    
-}
-#drache{
-    position: static
-}
-.red{
-    color:red;
-}
-.blue{
-    color:blue;
-}
-li{
-    position: relative;
-    right: 15pt;
-    list-style: none;
-}
-.header{
-    background-color: #701c1c6e;
-    padding: 20;
-    border-radius: 70cm;
-    border-style: groove;
-    text-align: center;
-    padding:10px 10px 10px 0px;
-    margin:10px 1px 10px 0px;
-}
-h3+p{
-    color: rgba(90, 64, 119, 0.514);
-}
-img[src="bild.jpeg"]+p{
-    color: rgba(90, 64, 119, 0.514);
-}
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-    color: lightsteelblue;
-	}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: lightsteelblue;
-	}
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: lightsteelblue;
-}
-} 
-/*ab hier desktop*/
+}}
 
 
 
 
-@media screen and ( min-width:1024){
-    nav {
-        position:fixed; 
-        top:0px;
-        right:0px;
-        border-style: solid ;
-        background-color: rgba(239, 240, 210, 0.63);
-    }
-    a[href$="Portfolio.html"]:hover{
-    background-color: rgba(0, 0, 255, 0.507);
-    }
-    a[href$="about.html"]:hover{
-        background-color: rgba(158, 156, 24, 0.507);
-    }
-    a[href$="Kontakt.html"]:hover{
-        background-color: rgba(17, 167, 104, 0.507);
-    }
-    body{
-        background-image: url(bg.png);
-    }
-    html{
-        max-width: 800;
-        text-align: center;
-        font-family: sans-serif;
-        border-style:solid ;
-    }
-    #bild{
-        position:static;
-        
-    }
-    #drache{
-        position: static
-    }
-    .red{
-        color:red;
-    }
-    .blue{
-        color:blue;
-    }
-    li{
-        position: relative;
-        right: 15pt;
-        list-style: none;
-    }
-    .header{
-        background-color: #701c1c6e;
-        padding: 20;
-        border-radius: 70cm;
-        border-style: groove;
-        text-align: center;
-        padding:10px 10px 10px 0px;
-        margin:10px 1px 10px 0px;
-    }
-    h3+p{
-        color: rgba(90, 64, 119, 0.514);
-    }
-    img[src="bild.jpeg"]+p{
-        color: rgba(90, 64, 119, 0.514);
-    }
-    a:link { 
-        font-weight: bold; 
-        text-decoration: none; 
-        color: lightsteelblue;
+
+
+
+
+
+/*desktop*/
+    @media screen and (min-width:1024px){
+        nav {
+            position:fixed; 
+            top:0px;
+            right:0px;
+            border-style: solid ;
+            background-color: rgba(239, 240, 210, 0.63);
         }
-    a:visited { 
-        font-weight: bold; 
-        text-decoration: none; 
-        color: lightsteelblue;
+        a[href$="Portfolio.html"]:hover{
+        background-color: rgba(0, 0, 255, 0.507);
         }
-    a:hover, a:focus, a:active { 
-        text-decoration: underline; 
-        color: lightsteelblue;
-    }
-    }
+        a[href$="about.html"]:hover{
+            background-color: rgba(158, 156, 24, 0.507);
+        }
+        a[href$="Kontakt.html"]:hover{
+            background-color: rgba(17, 167, 104, 0.507);
+        }
+        body{
+            background-image: url(bg.png);
+        }
+        html{
+            max-width: 800;
+            text-align: center;
+            font-family: sans-serif;
+            border-style:solid ;
+        }
+        #bild{
+            position:static;
+            
+        }
+        #drache{
+            position: static
+        }
+        .red{
+            color:red;
+        }
+        .blue{
+            color:blue;
+        }
+        li{
+            position: relative;
+            right: 15pt;
+            list-style: none;
+        }
+        .header{
+            background-color: #701c1c6e;
+            padding: 20;
+            border-radius: 70cm;
+            border-style: groove;
+            text-align: center;
+            padding:10px 10px 10px 0px;
+            margin:10px 1px 10px 0px;
+        }
+        h3+p{
+            color: rgba(90, 64, 119, 0.514);
+        }
+        img[src="bild.jpeg"]+p{
+            color: rgba(90, 64, 119, 0.514);
+        }
+        a:link { 
+            font-weight: bold; 
+            text-decoration: none; 
+            color: lightsteelblue;
+            }
+        a:visited { 
+            font-weight: bold; 
+            text-decoration: none; 
+            color: lightsteelblue;
+            }
+        a:hover, a:focus, a:active { 
+            text-decoration: underline; 
+            color: lightsteelblue;
+        }}
+
+
