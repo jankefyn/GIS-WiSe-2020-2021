@@ -53,3 +53,6 @@ li{
 h3+p{
     color: rgba(90, 64, 119, 0.514);
 }
+img[src="bild.jpeg"]+p{
+    color: rgba(90, 64, 119, 0.514);
+}
