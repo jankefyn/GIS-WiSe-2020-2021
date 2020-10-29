@@ -21,6 +21,7 @@ a[href$="Kontakt.html"]:hover{
     color: white;
 }
 body{
+    font-size: xx-large;
     background-image: url(bg.png);
 }
 html{
@@ -39,9 +40,7 @@ html{
 .gold{
     color:gold;
 }
-.blue{
-    color:blue;
-}
+
 li{
     position: relative;
     right: 15pt;
@@ -80,11 +79,16 @@ img[src="fb.png"]:hover{
     opacity: 1;
 }
 img[src="ig.png"]:hover{
-        transform: scale(1.2);
-        opacity: 1;
-    
-
+    transform: scale(1.2);
+    opacity: 1;
 }
+img[src="click me.jpg"]:hover{
+  float: left;
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
 @media screen and (min-width: 601px) and (max-width: 1024px){
     nav {
         position:fixed; 
@@ -108,6 +112,7 @@ img[src="ig.png"]:hover{
         color: white;
     }
     body{
+        font-size: x-large;
         background-image: url(bg.png);
     }
     html{
@@ -181,7 +186,9 @@ img[src="ig.png"]:hover{
     top: 30px;
     font-size: smaller;
 }
-
+body{
+    font-size: small;
+}
 
 }
 img:hover{
