@@ -75,9 +75,119 @@ a:hover, a:focus, a:active {
 	text-decoration: underline; 
 	color: lightsteelblue;
 }
-.icons:hover{
-    background-color: red;
+img[src="fb.png"]:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+img[src="ig.png"]:hover{
+        transform: scale(1.2);
+        opacity: 1;
     
+
+}
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    nav {
+        position:fixed; 
+        top:0px;
+        right:0px;
+        border-style: solid ;
+        background-color: rgb(0, 0, 0);
+        border-radius: 0 0 10px 10px;
+            z-index: 100;
+    }
+    a[href$="Portfolio.html"]:hover{
+    background-color: rgba(0, 0, 255, 0.507);
+    color: white;
+    }
+    a[href$="about.html"]:hover{
+        background-color: rgba(158, 156, 24, 0.507);
+        color: white;
+    }
+    a[href$="Kontakt.html"]:hover{
+        background-color: rgba(17, 167, 104, 0.507);
+        color: white;
+    }
+    body{
+        background-image: url(bg.png);
+    }
+    html{
+        max-width: 800;
+        text-align: center;
+        font-family: sans-serif;
+        border-style:solid ;
+    }
+    #bild{
+        position:static;
+        
+    }
+    #drache{
+        position: static
+    }
+    .gold{
+        color:gold;
+    }
+    .blue{
+        color:blue;
+    }
+    li{
+        position: relative;
+        right: 15pt;
+        list-style: none;
+    }
+    .header{
+        background-color: rgb(0, 0, 0);
+        border-radius: 50%;
+        
+    }
+    h1+p{
+        color: white;
+    }
+    h3+p{
+        color: rgba(90, 64, 119, 0.514);
+    }
+    img[src="bild.jpeg"]+p{
+        color: rgba(90, 64, 119, 0.514);
+    }
+    a:link { 
+        font-weight: bold; 
+        text-decoration: none; 
+        color: lightsteelblue;
+        }
+    a:visited { 
+        font-weight: bold; 
+        text-decoration: none; 
+        color: lightsteelblue;
+        }
+    a:hover, a:focus, a:active { 
+        text-decoration: underline; 
+        color: lightsteelblue;
+    }
+    img:hover{
+            transform: scale(1.5);
+            opacity: 1;
+        
+        
+    }}
+
+@media screen and (max-width: 600px){
+    nav{
+        width: 100%;
+        height: 30px;
+        font-size:25px;
+        text-align: center;
+    }
+.header{
+    position: relative;
+    top: 30px;
+    font-size: smaller;
 }
 
 
+}
+img:hover{
+    transform: scale(1);
+}
+.unterüberschrift{
+    position:relative;
+    top: 15px;
+}
