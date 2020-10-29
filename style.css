@@ -19,6 +19,7 @@ body{
     background-image: url(bg.png);
 }
 html{
+    max-width: 800;
     text-align: center;
     font-family: sans-serif;
     border-style:solid ;
@@ -55,4 +56,18 @@ h3+p{
 }
 img[src="bild.jpeg"]+p{
     color: rgba(90, 64, 119, 0.514);
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+    color: lightsteelblue;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: lightsteelblue;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: lightsteelblue;
 }
