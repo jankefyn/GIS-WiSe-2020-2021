@@ -6,8 +6,14 @@ nav {
     border-style: solid ;
     background-color: rgba(239, 240, 210, 0.63);
 }
-a:hover{
+a[href$="Portfolio.html"]:hover{
 background-color: rgba(0, 0, 255, 0.507);
+}
+a[href$="about.html"]:hover{
+    background-color: rgba(158, 156, 24, 0.507);
+}
+a[href$="Kontakt.html"]:hover{
+    background-color: rgba(17, 167, 104, 0.507);
 }
 body{
     background-image: url(bg.png);
@@ -41,6 +47,9 @@ li{
     border-radius: 70cm;
     border-style: groove;
     text-align: center;
-    padding:10px 10px 40px 40px;
-    margin:10px 10px 40px 40px;
+    padding:10px 10px 10px 0px;
+    margin:10px 1px 10px 0px;
+}
+h3+p{
+    color: rgba(90, 64, 119, 0.514);
 }
