@@ -5,6 +5,8 @@ nav {
     right:0px;
     border-style: solid ;
     background-color: rgb(0, 0, 0);
+    border-radius: 0 0 10px 10px;
+        z-index: 100;
 }
 a[href$="Portfolio.html"]:hover{
 background-color: rgba(0, 0, 255, 0.507);
