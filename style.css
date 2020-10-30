@@ -85,7 +85,7 @@ img[src="ig.png"]:hover{
     transform: scale(1.2);
     opacity: 1;
 }
-img[src="click me.jpg"]:hover{
+img[src="clickme.jpg"]:hover{
   float: right;
    
 }
