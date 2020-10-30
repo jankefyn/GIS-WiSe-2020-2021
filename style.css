@@ -89,6 +89,10 @@ img[src="click me.jpg"]:hover{
   float: right;
    
 }
+.Kontaktfelder{
+   padding-top: 80px;
+    float: left;
+}
 
 
 @media screen and (min-width: 601px) and (max-width: 1024px){
