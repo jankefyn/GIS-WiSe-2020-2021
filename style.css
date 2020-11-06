@@ -28,7 +28,7 @@ html{
     max-width: 800;
     text-align: center;
     font-family: sans-serif;
-    border-style:solid ;
+
 }
 #bild{
     position:static;
@@ -89,6 +89,10 @@ img[src="clickme.jpg"]:hover{
   float: right;
    
 }
+img[src="bild.jpg"]{
+    position:relative;
+    float:left
+}
 .Kontaktfelder{
    padding-top: 80px;
     float: left;
@@ -125,7 +129,7 @@ img[src="clickme.jpg"]:hover{
         max-width: 800;
         text-align: center;
         font-family: sans-serif;
-        border-style:solid ;
+      
     }
     #bild{
         position:static;
