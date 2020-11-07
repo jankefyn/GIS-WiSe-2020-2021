@@ -106,7 +106,7 @@ img[src="clickme.jpg"]:hover{
   float: right;
    
 }
-#videoaudio{
+.videoaudio{
     width: 400px;
 }
 .bilder{
@@ -221,7 +221,7 @@ body{
 #bild{
     width:100%;
 }
-#videoaudio{
+.videoaudio{
     width: 100%;
 }
 .drache_flex img{
