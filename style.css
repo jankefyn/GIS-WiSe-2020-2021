@@ -161,7 +161,7 @@ body{
 .drache_flex img{
     margin: 15px;
     width: 100% ;
-   
+   height: auto;
 }
 img:hover{
     transform: scale(1);
